@@ -1838,9 +1838,9 @@ progress {
 .form-control:focus {
   color: #878d97;
   background-color: #fff;
-  border-color: #fbc585;
+  border-color:#8b85fb;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(246, 138, 10, 0.25);
+  box-shadow: 0 0 0 0.25rem rgb(66 10 246 / 25%);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2577,7 +2577,7 @@ fieldset:disabled .btn {
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(209, 117, 9, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(11, 14, 214, 0.5);
 }
 .btn-primary:disabled,
 .btn-primary.disabled {

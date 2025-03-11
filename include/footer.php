@@ -10,10 +10,11 @@
              </div>
              <div class="col-lg-5">
                  <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
-                     <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                     <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
-                     <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
-                     <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                     <a class="btn btn-light btn-md-square me-3" href="https://www.facebook.com/wjohnboardingschool"><img src="img/icons/facebook.png" width="90%" alt="Facebook"></a>
+                     <a class="btn btn-light btn-md-square me-3" href="https://www.youtube.com/@wjohnmultipurposeboardings2305"><img src="img/icons/youtube.png" width="90%" alt="youtube"></a>
+                     <a class="btn btn-light btn-md-square me-3" href=""><img src="img/icons/twitter.png" width="90%" alt="twitter"></a>
+                     <a class="btn btn-light btn-md-square me-3" href=""><img src="img/icons/instagram.png" width="90%" alt="instagram"></a>
+                     
                  </div>
              </div>
          </div>
@@ -83,7 +84,9 @@
 
 
  <!-- Back to Top -->
- <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+<a href="#" class="btn btn-primary btn-lg-square back-to-top" style="display: none;">
+    <i class="fa fa-arrow-up"></i>
+</a>
 
 
  <script>

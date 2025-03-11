@@ -40,6 +40,7 @@
 .btn-md-square {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 
 .btn-lg-square {
@@ -132,16 +133,16 @@
 
 @media (min-width: 992px) {
   .header-top::before {
-        content: "";
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 45px;
-        top: 0;
-        right: 0;
-        background: #2c1a7a;
-        z-index: -1;
-    }
+    content: "";
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 45px;
+    top: 0;
+    right: 0;
+    background: #2c1a7a;
+    z-index: -1;
+  }
 
   .navbar-brand-2 {
     display: none;
@@ -471,7 +472,7 @@
 @media (max-width: 991px) {
   .header-carousel.owl-carousel,
   .header-carousel .header-carousel-item {
-    height:auto;
+    height: auto;
   }
   .header-carousel .header-carousel-item .carousel-caption {
     display: none !important;
@@ -484,7 +485,7 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/banner-img.jpg);
+    url(../img/carousel-2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -573,7 +574,7 @@
   height: 500px;
   bottom: -165px;
   right: 0;
-  background:#0dcaf0;
+  background: #0dcaf0;
   transform: rotate(45deg);
   z-index: 2;
 }
@@ -937,7 +938,8 @@
 
 /*** Footer Start ***/
 .footer {
-  background:linear-gradient(45deg, #000000c4, #121339a3),url(../img/bg.png) no-repeat center center;
+  background: linear-gradient(45deg, #000000c4, #121339a3),
+    url(../img/bg.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -976,8 +978,12 @@
 }
 /*** copyright end ***/
 
-
-
 .bg-container {
   background: #f9f7ff;
+}
+.stickty-top {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  background: white;
 }
