@@ -143,7 +143,7 @@
                         <p class="mb-4" align="justify">The school, permanently affiliated with CISCE, New Delhi, fosters holistic education, nurturing physical, mental, social, and spiritual growth in students while providing a supportive environment to develop skills, knowledge, and achieve dreams.</p>
                         <p align="justify">The school is permanently affiliated to the council for the Indian School Certificate Examinations, New Delhi. The school curriculum and the teaching methodology are based on the latest thought and trends in Education.</p>
                         <p align="justify"> The school endeavors to fulfill and inculcate within the students four major dimensions of true education i.e; physical, mental, social and spiritual. The distinctive Adventist ethos of the school creates the atmosphere in which children can flourish, as they develop their skills, knowledge and realize their dreams come true.</p>
-                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">About us</a>
+                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="about.php">About us</a>
                     </div>
                 </div>
                 <div class="col-lg-5 ">

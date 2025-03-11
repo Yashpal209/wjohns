@@ -8,12 +8,12 @@
     <?php include 'include/headerlink.php' ?>
 </head>
 
-<body class="bg-light">
+<body>
     <?php include 'include/header.php' ?>
 
     <div class="container-fluid bg-breadcrumb">
-        <div class="container text-center py-5" style="max-width: 900px;">
-            <h4 class="text-white display-4 mb-4 wow " >Contact Us</h4>
+        <div class="container text-center py-3" style="max-width: 900px;">
+            <h4 class="text-white display-6 mb-4 wow ">Contact Us</h4>
             <ol class="breadcrumb d-flex justify-content-center mb-0 wow ">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <section class="contact py-5">
+    <section class="contact bg-light py-5">
         <div class="container">
             <div class="row">
                 <!-- Contact Form Section -->
@@ -79,8 +79,10 @@
         </div>
     </section>
 
-    <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4097.807396612826!2d85.18832717567443!3d23.326734804908455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4df4c9fd98c15%3A0x239bebcbb15141b3!2sW.%20John%20Multipurpose%20Boarding%20School!5e1!3m2!1sen!2sin!4v1741686382474!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4097.807396612826!2d85.18832717567443!3d23.326734804908455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4df4c9fd98c15%3A0x239bebcbb15141b3!2sW.%20John%20Multipurpose%20Boarding%20School!5e1!3m2!1sen!2sin!4v1741686382474!5m2!1sen!2sin" width="100%" height="450" style="border:0;border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
     <?php include 'include/footer.php' ?>

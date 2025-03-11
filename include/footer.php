@@ -34,11 +34,11 @@
              <div class="col-md-6 col-lg-6 col-xl-3">
                  <div class="footer-item d-flex flex-column">
                      <h4 class="text-white mb-4">Quick Links</h4>
-                     <a href="#"> Home</a>
-                     <a href="#"> About Us</a>
-                     <a href="#"> Academics</a>
+                     <a href="index.php"> Home</a>
+                     <a href="about.php"> About Us</a>
+                     <a href=""> Academics</a>
                      <a href="#"> Admissions</a>
-                     <a href="#"> Contact Us</a>
+                     <a href="contact.php"> Contact Us</a>
                  </div>
              </div>
              <div class="col-md-6 col-lg-6 col-xl-3">
