@@ -12,10 +12,9 @@
     <?php include 'include/header.php' ?>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="row">
-            <!-- Carousel Section -->
-            <div class="col-lg-9 col-md-8 col-12 p-0">
+            <div class="col-lg-12 col-md-12 col-12 p-0">
                 <div class="header-carousel owl-carousel overflow-hidden">
                     <div class="header-carousel-item hero-section">
                         <img src="img/carousel-5.jpg" alt="" class="img-fluid w-100">
@@ -71,22 +70,61 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Notices Section -->
-            <div class="col-lg-3 col-md-4 col-12">
-                <div class="card bg-light h-100">
-                    <div class="card-body text-center d-flex flex-column h-100">
-                        <h5 class="card-title bg-primary p-2 text-white"> Latest Update</h5>
-                        <hr />
-                        <div class="flex-grow-1 overflow-hidden">
-                            <marquee behavior="scroll" direction="up" scrollamount="3" class="d-block text-dark" style="font-size: 16px;">
-                                <p>1. School Annual Function <a href="" class="btn btn-outline-danger">See More</a> </p>
-                                <p>2. Admissions open for the new session <a href="" class="btn btn-outline-danger">Apply Now</a></p>
-                                <p>3. Sports Day event <a href="" class="btn btn-outline-danger">See More</a> </p>
-                                <p>4. Parent-Teacher Meeting on March 25! </p>
-                            </marquee>
+    <div class="container-fluid bg-light">
+        <div class="container  py-3 px-5">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-12 py-2">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center d-flex flex-column h-100">
+                            <h5 class="card-title bg-primary p-2 text-white"> Official Notice</h5>
+                            <hr />
+                            <div class="flex-grow-1 overflow-hidden">
+                                <marquee behavior="scroll" direction="up" scrollamount="3" class="d-block text-dark" style="font-size: 16px;">
+                                    <p>1. School Annual Function <a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>2. Admissions open for the new session <a class="badge rounded-pill bg-danger">See More</a></p>
+                                    <p>3. Sports Day event <a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>4. Parent-Teacher Meeting on March 25! </p>
+                                </marquee>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-3">View All Notice</a>
                         </div>
-                        <a href="#" class="btn btn-primary mt-3">View All Updates</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 py-2">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center d-flex flex-column h-100">
+                            <h5 class="card-title bg-primary p-2 text-white"> Latest News</h5>
+                            <hr />
+                            <div class="flex-grow-1 overflow-hidden">
+                                <marquee behavior="scroll" direction="up" scrollamount="3" class="d-block text-dark" style="font-size: 16px;">
+                                    <p>1. School Annual Function <a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>2. Admissions open for the new session <a class="badge rounded-pill bg-danger">Apply Now</a></p>
+                                    <p>3. Sports Day event <a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>4. Parent-Teacher Meeting on March 25! </p>
+                                </marquee>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-3">View All News</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 py-2">
+                    <div class="card bg-light h-100">
+                        <div class="card-body text-center d-flex flex-column h-100">
+                            <h5 class="card-title bg-primary p-2 text-white"> Events</h5>
+                            <hr />
+                            <div class="flex-grow-1 overflow-hidden">
+                                <marquee behavior="scroll" direction="up" scrollamount="3" class="d-block text-dark" style="font-size: 16px;">
+                                    <p>1. School Annual Function <a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>2. Admissions open for the new session <a class="badge rounded-pill bg-danger">See More</a></p>
+                                    <p>3. Sports Day event<a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>4. Parent-Teacher Meeting on March 25! </p>
+                                </marquee>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-3">View All Events</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,87 +132,23 @@
     </div>
 
 
-    <!-- <div class="container-fluid testimonial bg-light py-3">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 col-xl-5 wow ">
-                    <h4 class="text-primary">About School</h4>
-                    <h1 class="fw-bold text-dark mb-4">W. John Multipurpose Boarding School</h1>
-                    <p class="mb-4">At Piska Nagri, 15 km west from Ranchi city on Ranchi-Mumbai National Highway Road No. NH 23 in a calm, peaceful and pollution free environment. W. John Multipurpose Boarding School was setup in 1990, under the able guidance of conscientious and meticulous personality Dr. MP Ekka. Bahuddesiya Samaj Sewa Sanstha is the apex body of the school. In a short span of years it has already established itself as a leading institution.</p>
-                    <a class="btn btn-dark py-3 px-5" href="#">View More Details</a>
-                </div>
-                <div class="col-lg-6 col-xl-7 wow ">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item">
-                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="testimonial-inner p-4">
-                                <img src="img/testimonial-3.jpg" class="img-fluid" alt="">
-                                <div class="ms-4">
-                                    <h4>Lt. Dr. M. P. Ekka</h4>
-                                    <p>Founder Director</p>
-
-                                </div>
-                            </div>
-                            <div class="customer-text p-4">
-                                <p class="mb-0">The school, permanently affiliated with CISCE, New Delhi, fosters holistic education, nurturing physical, mental, social, and spiritual growth in students while providing a supportive environment to develop skills, knowledge, and achieve dreams.
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="testimonial-inner p-4">
-                                <img src="img/testimonial-3.jpg" class="img-fluid" alt="">
-                                <div class="ms-4">
-                                    <h4>Mr. M. Pierson Ekka</h4>
-                                    <p>Director</p>
-                                </div>
-                            </div>
-                            <div class="customer-text p-4">
-                                <p class="mb-0">Education nurtures the mind, body, and spirit, fostering values, discipline, creativity, and critical thinking in children, ensuring holistic development and preparing them to be responsible, cultured, and socially sensitive future citizens.</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="testimonial-inner p-4">
-                                <img src="img/testimonial-1.jpg" class="img-fluid" alt="">
-                                <div class="ms-4">
-                                    <h4>Dr. (Mrs.) Suphal Ekka</h4>
-                                    <p>PRINCIPAL'S Message</p>
-                                </div>
-                            </div>
-                            <div class="customer-text p-4">
-                                <p class="mb-0">Education shapes minds and souls, fostering values, skills, and balance. Our school nurtures holistic growth, excelling in academics, arts, sports, and community service while partnering with parents for student success.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- About Start -->
-    <div class="container-fluid about bg-light py-5">
+    <div class="container-fluid about bg-container bg-light py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-7 ">
                     <div class="h-100">
-                        <h3 class="text-primary">About Us</h3>
+                        <h3 class="text-primary">About The School</h3>
                         <h1 class="fw-bold">W. John Multipurpose Boarding School</h1>
                         <p class=" fw-bold mb-4">(affiliated to the council for the ICSC,New Delhi)</p>
                         <p class="mb-4">The school, permanently affiliated with CISCE, New Delhi, fosters holistic education, nurturing physical, mental, social, and spiritual growth in students while providing a supportive environment to develop skills, knowledge, and achieve dreams.</p>
-                        <div class="text-dark mb-4">
-                            <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Safe and well-maintained hostel facilities.</p>
-                            <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Comprehensive curriculum fostering academic and personal growth.</p>
-                            <p class="fs-5"><span class="fa fa-check text-primary me-2"></span> Modern amenities for enhanced learning experiences.</p>
-                        </div>
-                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Contact us</a>
+                        <p class="text-justify">The school is permanently affiliated to the council for the Indian School Certificate Examinations, New Delhi. The school curriculum and the teaching methodology are based on the latest thought and trends in Education.</p>
+                        <p class="text-justify"> The school endeavors to fulfill and inculcate within the students four major dimensions of true education i.e; physical, mental, social and spiritual. The distinctive Adventist ethos of the school creates the atmosphere in which children can flourish, as they develop their skills, knowledge and realize their dreams come true.</p>
+                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">About us</a>
                     </div>
                 </div>
                 <div class="col-lg-5 ">
                     <div class="position-relative h-100">
-                        <img src="img/about-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                        <img src="img/founder.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
                         <div class="bg-white">
                             <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
                                 <div class="bg-primary p-4">
@@ -191,47 +165,71 @@
             </div>
         </div>
     </div>
-    <!-- About End -->
 
+    <div class="container-fluid message bg-light py-3">
+        <div class="container ">
+            <div class="row g-4 bg-container">
+                <div class="col-md-12 col-12 ">
+                    <h1 class="text-center fw-bold pb-4">Message From The Director & Principal</h1>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="img/director.png" class="img-fluid " style="border: 2px solid #f1bf02; border-radius: 50%;" alt="">
+                            <h4 class="text-center">Mr. M. Pierson Ekka </h4>
+                            <h5 class=" text-center mb-0">Director</h5>
+                        </div>
+                        <div class="col-md-8 ">
+                            <p>Literacy in itself is no education. Literacy is not the end of education or even the beginning. By education, I mean an all-round drawing out of the best in the child and man-body, mind and spirit. Mahatma Gandhi not the learning of facts, but the training of the mind to think" Every child is like a seed which has the potential to grow if it is nourished with love and care under the right guidance. In the current challenging times it is essential that children should not only excel in academics but should also develop courtesy. discipline, smart personality, social sensitivity and be imbibed with the traditional values and culture of our country. Childhood is the best time to lay the foundation of the core values essential for the overall development of the future citizen of tomorrow. Year by year the efforts of all our staff and students have taken the school forward in terms of excellence. The school has progressed in leaps and bounds. Today we stand as one of the noted educational landmarks in the heart of Ranchi, Jharkhand. We offer our students a stress free learning environment which encourages creativity and critical thinking. "
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-12   ">
+                    <div class="row">
+                        <div class="col-md-8  justify-content-center align-items-center ">
+                            <p>"Education is not merely acquirement of facts but also of values which help us improve the different facets of mankind. A pivotal role of education lies in shaping the personality of a child into a healthy mind and a happy soul, who is not only equipped with contemporary skills and aptitude required for academic excellence but also helping him face the challenges of life in a balanced and harmonious way.</p>
 
-    <div class="container-fluid banner py-3">
-        <div class="banner-design-1"></div>
-        <div class="banner-design-2"></div>
-        <div class="container py-5">
-            <div class="row g-5 text-center text-lg-start">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <i class="fas fa-user-graduate fa-3x text-primary"></i>
-                        <h3 class="counter" data-target="5000">0</h3>
-                        <p class="counter-label">Total Students</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <i class="fas fa-chalkboard-teacher fa-3x text-primary"></i>
-                        <h3 class="counter" data-target="250">0</h3>
-                        <p class="counter-label">Expert Teachers</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <i class="fas fa-book-open fa-3x text-primary"></i>
-                        <h3 class="counter" data-target="120">0</h3>
-                        <p class="counter-label">Academic Programs</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <i class="fas fa-trophy fa-3x text-primary"></i>
-                        <h3 class="counter" data-target="50">0</h3>
-                        <p class="counter-label">Awards Won</p>
+                            <p>I am extremely delighted to say that our school has been instrumental in giving quality education and wings to the aspirations of our students in the tribal belt. Our school has been serving as light house for the community by providing four fold education mental, physical, social and spiritual as well. Beside rigorous scholastic program, the school has marked its name in all spheres such as art and craft, music, variety of sports, environmental conservation activities and the list goes on.....</p>
+
+                            <p>This prospectus is intended to give you an idea of the work of our school. In it your will find information about the everyday running of the school, the wide curriculum we offer, and the breadth of experiences available to our pupils. Of course, all that we aim to achieve is dependent on the fact that we work in partnership with you, the parents. This partnership is crucial, and it is at the centre of all that is good for your child in our school."
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="img/principle.png" class="img-fluid" style="border: 2px solid #f1bf02; border-radius: 50%;" alt="">
+                            <h4 class="text-center">Dr. (Mrs.) Suphal Ekka</h4>
+                            <h5 class=" text-center mb-0">Principal</h5>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Services Start -->
+    <div class="container-fluid video bg-container bg-light py-3">
+        <div class="container">
+            <h1 class="text-center fw-bold pb-2">Popular Events </h1>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/628DtBMkOGI"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/X-uh5xpQaM4"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid service bg-light py-3">
         <div class="container">
             <div class="d-flex flex-column mx-auto text-center mb-5 " style="max-width: 800px;">
@@ -351,91 +349,117 @@
         </div>
     </div>
 
-    <!-- <div class="container-fluid projects bg-light py-3">
-        <div class="container ">
-            <div class="row g-5">
-                <div class="col-lg-5 wow ">
-                    <div>
-                        <h4 class="text-primary">Our Projects</h4>
-                        <h1 class="display-4 mb-4">How to work Our School Projects</h1>
-                        <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum fugiat quae nihil obcaecati,</p>
-                        <ul class="nav">
-                            <li class="nav-item bg-white mb-4 w-100">
-                                <a class="d-flex align-items-center h4 mb-0 p-3 active" data-bs-toggle="pill" href="#ProjectsTab-1">
-                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Power Path Unveiling Our process</span>
-                                </a>
-                            </li>
-                            <li class="nav-item bg-white mb-4 w-100">
-                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-2">
-                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-charging-station small"></span></div><span>Electro Flow Decoding Our method</span>
-                                </a>
-                            </li>
-                            <li class="nav-item bg-white mb-4 w-100">
-                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-3">
-                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-broadcast-tower small"></span></div><span>Energetic Engine Behind Scenes</span>
-                                </a>
-                            </li>
-                            <li class="nav-item bg-white mb-4 w-100">
-                                <a class="d-flex align-items-center h4 mb-0 p-3" data-bs-toggle="pill" href="#ProjectsTab-4">
-                                    <div class="projects-icon btn-md-square bg-primary text-white me-3"><span class="fas fa-bolt small"></span></div><span>Watt Works Discover Operations</span>
-                                </a>
-                            </li>
-                        </ul>
+    <div class="container-fluid banner  py-3">
+        <div class="banner-design-1"></div>
+        <div class="banner-design-2"></div>
+        <div class="container py-5">
+            <div class="row g-5 text-center text-lg-start">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-user-graduate fa-3x text-primary"></i>
+                        <h3 class="counter" data-target="5000">0</h3>
+                        <p class="counter-label">Total Students</p>
                     </div>
                 </div>
-                <div class="col-lg-7 wow ">
-                    <div class="tab-content">
-                        <div id="ProjectsTab-1" class="tab-pane fade show p-0 active">
-                            <div class="projects-item">
-                                <img src="img/Facilities/1.png" class="img-fluid w-100" alt="">
-                                <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-3">Power Path Unveiling Our process</h4>
-                                    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
-                                    </p>
-                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-chalkboard-teacher fa-3x text-primary"></i>
+                        <h3 class="counter" data-target="250">0</h3>
+                        <p class="counter-label">Expert Teachers</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-book-open fa-3x text-primary"></i>
+                        <h3 class="counter" data-target="120">0</h3>
+                        <p class="counter-label">Academic Programs</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-box">
+                        <i class="fas fa-trophy fa-3x text-primary"></i>
+                        <h3 class="counter" data-target="50">0</h3>
+                        <p class="counter-label">Awards Won</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid testimonial bg-light py-3">
+        <div class="container">
+            <h1 class="fw-bold text-center mb-4">Testimonials</h1>
+            <div class="row g-5">
+                <!-- <div class="col-lg-6 col-xl-5 wow ">
+                    <h4 class="text-primary">About School</h4>
+                    <p class="mb-4">At Piska Nagri, 15 km west from Ranchi city on Ranchi-Mumbai National Highway Road No. NH 23 in a calm, peaceful and pollution free environment. W. John Multipurpose Boarding School was setup in 1990, under the able guidance of conscientious and meticulous personality Dr. MP Ekka. Bahuddesiya Samaj Sewa Sanstha is the apex body of the school. In a short span of years it has already established itself as a leading institution.</p>
+                    <a class="btn btn-dark py-3 px-5" href="#">View More Details</a>
+                </div> -->
+                <div class="col-md-12 wow ">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item">
+                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="testimonial-inner p-4">
+                                <img src="img/user.png" class="img-fluid" alt="">
+                                <div class="ms-4">
+                                    <h4>Ramesh Row</h4>
+                                    <p>student</p>
                                 </div>
                             </div>
-                        </div>
-                        <div id="ProjectsTab-2" class="tab-pane fade show p-0">
-                            <div class="projects-item">
-                                <img src="img/industrial-2.jpg" class="img-fluid w-100" alt="">
-                                <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-3">Electro Flow Decoding Our method</h4>
-                                    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
-                                    </p>
-                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                </div>
+                            <div class="customer-text p-4">
+                                <p class="mb-0">"WJohns School has been an incredible place for my child’s growth. The teachers truly care about their students, and the curriculum challenges them while keeping learning fun. I’ve seen so much improvement in my child’s confidence and academic skills."</p>
                             </div>
                         </div>
-                        <div id="ProjectsTab-3" class="tab-pane fade show p-0">
-                            <div class="projects-item">
-                                <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
-                                <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-3">Energetic Engine Behind Scenes</h4>
-                                    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
-                                    </p>
-                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                        <div class="testimonial-item">
+                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="testimonial-inner p-4">
+                                <img src="img/user.png" class="img-fluid" alt="">
+                                <div class="ms-4">
+                                    <h4>Krishna Ekka</h4>
+                                    <p>Student</p>
                                 </div>
                             </div>
+                            <div class="customer-text p-4">
+                                <p class="mb-0">"I love being a student at WJohns School! The teachers make learning exciting, and I’ve made amazing friends. The school also offers great extracurricular activities that let us explore our interests beyond the classroom."</p>
+                            </div>
                         </div>
-                        <div id="ProjectsTab-4" class="tab-pane fade show p-0">
-                            <div class="projects-item">
-                                <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
-                                <div class="projects-content bg-white p-4">
-                                    <h4 class="mb-4">Watt Works Discover Operations</h4>
-                                    <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quo? Enim facere, praesentium voluptatem vero officiis libero fuga rem autem amet recusandae voluptates, dolorem quo magni. Corporis eveniet consequuntur accusantium.
-                                    </p>
-                                    <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+                        <div class="testimonial-item">
+                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="testimonial-inner p-4">
+                                <img src="img/user.png" class="img-fluid" alt="">
+                                <div class="ms-4">
+                                    <h4>Rajesh kumar</h4>
+                                    <p>Student</p>
                                 </div>
+                            </div>
+                            <div class="customer-text p-4">
+                                <p class="mb-0">"Attending WJohns School gave me a strong academic foundation and taught me valuable life skills. The supportive environment helped me develop confidence, and I'm grateful for the lifelong friendships I made there."</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="testimonial-inner p-4">
+                                <img src="img/user.png" class="img-fluid" alt="">
+                                <div class="ms-4">
+                                    <h4>Rakesh kumar</h4>
+                                    <p>Student</p>
+                                </div>
+                            </div>
+                            <div class="customer-text p-4">
+                                <p class="mb-0">"WJohns School is more than just a school—it's a pillar of the community. The staff and students are always involved in local events, and their commitment to education and character development is truly commendable."</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <div class="container-fluid faq-section bg-light py-3">
+    <!-- <div class="container-fluid faq-section bg-light py-3">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow ">
@@ -500,9 +524,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
+    </div> -->
 
     <?php include 'include/footer.php' ?>
     <?php include 'include/footerlink.php' ?>

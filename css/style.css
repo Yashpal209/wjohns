@@ -953,7 +953,7 @@
 
 .footer .footer-item a:hover {
   letter-spacing: 1px;
-  color: var(--bs-primary);
+  color: #fa43af;
 }
 
 .footer .footer-item .footer-btn a {
@@ -975,3 +975,9 @@
   background: var(--bs-dark);
 }
 /*** copyright end ***/
+
+
+
+.bg-container {
+  background: #f9f7ff;
+}

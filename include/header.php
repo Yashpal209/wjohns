@@ -7,31 +7,32 @@
 
 
 <div class="container-fluid header-top ">
-    <div class="container d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-center">
         <div class="d-flex align-items-center h-100">
             <a href="#" class="navbar-brand" style="height: 125px;">
                 <img class="logo" src="img/logo.png" alt="Logo">
             </a>
         </div>
         <div class="w-100 h-100">
-            <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px; border-bottom: 1px solid black;">
+            <div class="topbar px-0 py-2 d-none d-lg-block">
                 <div class="row gx-0 align-items-center">
-                    <div class="col-lg-8 text-center text-lg-center mb-lg-0">
-                        <div class="d-flex flex-wrap">
+                    <div class="col-lg-8 text-center  ">
+                        <div class="d-flex align-items-center justify-content-center flex-wrap">
                             <div class="border-end border-white pe-3" >
-                                <a href="#" class="text-white small"><i class="fas fa-map-marker-alt  me-2"></i>Find A Location</a>
+                                <a href="#" class="text-white small">Registration</a>
                             </div>
                             <div class="ps-3">
-                                <a href="mailto:example@gmail.com" class="text-white small"><i class="fas fa-envelope  me-2"></i>example@gmail.com</a>
+                                <a href="mailto:info@wjohnschool.com" class="text-white small"></i>info@wjohnschool.com</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
                         <div class="d-flex justify-content-end">
                             <div class="d-flex pe-3">
-                                <a class="btn p-0 text-white me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn p-0 text-white me-3" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn p-0 text-white me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn p-0 text-white me-3" href="https://www.facebook.com/wjohnboardingschool"><i class="fab fa-facebook-f"></i></a>
+                               
+                                <a class="btn p-0 text-white me-3" href="https://www.youtube.com/@wjohnmultipurposeboardings2305"><i class="fab fa-youtube"></i></a>
+                               
                                 <a class="btn p-0 text-white me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
