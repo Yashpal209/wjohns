@@ -83,7 +83,7 @@
                             <hr />
                             <div class="flex-grow-1 overflow-hidden">
                                 <marquee behavior="scroll" direction="up" scrollamount="3" class="d-block text-dark" style="font-size: 16px;">
-                                    <p>1. School Annual Function <a class="badge rounded-pill bg-danger">See More</a> </p>
+                                    <p>1. School Annual Function <a class="badge rounded-pill bg-danger">new</a> </p>
                                     <p>2. Admissions open for the new session <a class="badge rounded-pill bg-danger">See More</a></p>
                                     <p>3. Sports Day event <a class="badge rounded-pill bg-danger">See More</a> </p>
                                     <p>4. Parent-Teacher Meeting on March 25! </p>
@@ -140,9 +140,9 @@
                         <h3 class="text-primary">About The School</h3>
                         <h1 class="fw-bold">W. John Multipurpose Boarding School</h1>
                         <p class=" fw-bold mb-4">(affiliated to the council for the ICSC,New Delhi)</p>
-                        <p class="mb-4">The school, permanently affiliated with CISCE, New Delhi, fosters holistic education, nurturing physical, mental, social, and spiritual growth in students while providing a supportive environment to develop skills, knowledge, and achieve dreams.</p>
-                        <p class="text-justify">The school is permanently affiliated to the council for the Indian School Certificate Examinations, New Delhi. The school curriculum and the teaching methodology are based on the latest thought and trends in Education.</p>
-                        <p class="text-justify"> The school endeavors to fulfill and inculcate within the students four major dimensions of true education i.e; physical, mental, social and spiritual. The distinctive Adventist ethos of the school creates the atmosphere in which children can flourish, as they develop their skills, knowledge and realize their dreams come true.</p>
+                        <p class="mb-4" align="justify">The school, permanently affiliated with CISCE, New Delhi, fosters holistic education, nurturing physical, mental, social, and spiritual growth in students while providing a supportive environment to develop skills, knowledge, and achieve dreams.</p>
+                        <p align="justify">The school is permanently affiliated to the council for the Indian School Certificate Examinations, New Delhi. The school curriculum and the teaching methodology are based on the latest thought and trends in Education.</p>
+                        <p align="justify"> The school endeavors to fulfill and inculcate within the students four major dimensions of true education i.e; physical, mental, social and spiritual. The distinctive Adventist ethos of the school creates the atmosphere in which children can flourish, as they develop their skills, knowledge and realize their dreams come true.</p>
                         <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">About us</a>
                     </div>
                 </div>
@@ -178,19 +178,19 @@
                             <h5 class=" text-center mb-0">Director</h5>
                         </div>
                         <div class="col-md-8 ">
-                            <p>Literacy in itself is no education. Literacy is not the end of education or even the beginning. By education, I mean an all-round drawing out of the best in the child and man-body, mind and spirit. Mahatma Gandhi not the learning of facts, but the training of the mind to think" Every child is like a seed which has the potential to grow if it is nourished with love and care under the right guidance. In the current challenging times it is essential that children should not only excel in academics but should also develop courtesy. discipline, smart personality, social sensitivity and be imbibed with the traditional values and culture of our country. Childhood is the best time to lay the foundation of the core values essential for the overall development of the future citizen of tomorrow. Year by year the efforts of all our staff and students have taken the school forward in terms of excellence. The school has progressed in leaps and bounds. Today we stand as one of the noted educational landmarks in the heart of Ranchi, Jharkhand. We offer our students a stress free learning environment which encourages creativity and critical thinking. "
+                            <p align="justify">Literacy in itself is no education. Literacy is not the end of education or even the beginning. By education, I mean an all-round drawing out of the best in the child and man-body, mind and spirit. Mahatma Gandhi not the learning of facts, but the training of the mind to think" Every child is like a seed which has the potential to grow if it is nourished with love and care under the right guidance. In the current challenging times it is essential that children should not only excel in academics but should also develop courtesy. discipline, smart personality, social sensitivity and be imbibed with the traditional values and culture of our country. Childhood is the best time to lay the foundation of the core values essential for the overall development of the future citizen of tomorrow. Year by year the efforts of all our staff and students have taken the school forward in terms of excellence. The school has progressed in leaps and bounds. Today we stand as one of the noted educational landmarks in the heart of Ranchi, Jharkhand. We offer our students a stress free learning environment which encourages creativity and critical thinking. "
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-12   ">
                     <div class="row">
-                        <div class="col-md-8  justify-content-center align-items-center ">
-                            <p>"Education is not merely acquirement of facts but also of values which help us improve the different facets of mankind. A pivotal role of education lies in shaping the personality of a child into a healthy mind and a happy soul, who is not only equipped with contemporary skills and aptitude required for academic excellence but also helping him face the challenges of life in a balanced and harmonious way.</p>
+                        <div class="col-md-8  ">
+                            <p align="justify">"Education is not merely acquirement of facts but also of values which help us improve the different facets of mankind. A pivotal role of education lies in shaping the personality of a child into a healthy mind and a happy soul, who is not only equipped with contemporary skills and aptitude required for academic excellence but also helping him face the challenges of life in a balanced and harmonious way.</p>
 
-                            <p>I am extremely delighted to say that our school has been instrumental in giving quality education and wings to the aspirations of our students in the tribal belt. Our school has been serving as light house for the community by providing four fold education mental, physical, social and spiritual as well. Beside rigorous scholastic program, the school has marked its name in all spheres such as art and craft, music, variety of sports, environmental conservation activities and the list goes on.....</p>
+                            <p align="justify">I am extremely delighted to say that our school has been instrumental in giving quality education and wings to the aspirations of our students in the tribal belt. Our school has been serving as light house for the community by providing four fold education mental, physical, social and spiritual as well. Beside rigorous scholastic program, the school has marked its name in all spheres such as art and craft, music, variety of sports, environmental conservation activities and the list goes on.....</p>
 
-                            <p>This prospectus is intended to give you an idea of the work of our school. In it your will find information about the everyday running of the school, the wide curriculum we offer, and the breadth of experiences available to our pupils. Of course, all that we aim to achieve is dependent on the fact that we work in partnership with you, the parents. This partnership is crucial, and it is at the centre of all that is good for your child in our school."
+                            <p align="justify">This prospectus is intended to give you an idea of the work of our school. In it your will find information about the everyday running of the school, the wide curriculum we offer, and the breadth of experiences available to our pupils. Of course, all that we aim to achieve is dependent on the fact that we work in partnership with you, the parents. This partnership is crucial, and it is at the centre of all that is good for your child in our school."
                             </p>
                         </div>
                         <div class="col-md-4 text-center">
